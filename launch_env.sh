@@ -20,3 +20,6 @@ if [ -z "$AGNOS_VERSION" ]; then
 fi
 
 export STAGING_ROOT="/data/safe_staging"
+
+# Forester 2022 (angle LKAS): force fingerprint, as on jw-hackathon-forester
+export FINGERPRINT="SUBARU_FORESTER_2022"
